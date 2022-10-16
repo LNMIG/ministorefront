@@ -1,0 +1,35 @@
+.wrapperLeft {
+    min-width: 17.1875rem;
+    max-width: fit-content;
+    min-height: 18rem;
+    max-height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 1.25rem;
+}
+.wrapperLeftMainCart {
+    min-width: 17.1875rem;
+    max-width: fit-content;
+    min-height: 18rem;
+    max-height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 1.25rem;
+}
+.wrapperLeftMiniCart {
+    width: 50%;
+    min-height: 11.875rem;
+    max-height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 0.1rem;
+}

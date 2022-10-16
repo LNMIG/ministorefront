@@ -1,0 +1,48 @@
+.productDetailContainer .first {
+    width: 5rem;
+    min-height: 28rem;
+    max-height: 28rem;
+    padding-top: 0.3125rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    gap: 0.3125rem;
+
+    position: absolute;
+    left: 7.014%; /*6.125rem;*/
+    top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.productDetailContainer .first::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 1rem;
+}
+.productDetailContainer .first::-webkit-scrollbar-thumb {
+    background: #5ECE7B; /*#333;*/
+    border-radius: 0.25rem;
+}
+.productDetailContainer .first::-webkit-scrollbar-track {
+    background: #d5eeff; /* #999; */
+}
+.productDetailContainer .first .button {
+    width: 5rem;
+    height:5rem;
+    margin: 0rem;
+    padding: 0rem;
+    border: none;
+    
+    background: #ffffff;
+    cursor: pointer;
+}
+.productDetailContainer .first .button:hover {
+    /* box-shadow: 0px 0px 8px grey; */
+    border: 2px solid #ffffff;
+}
+.productDetailContainer .first .button .imageSide {
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}

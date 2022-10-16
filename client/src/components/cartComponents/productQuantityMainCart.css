@@ -1,0 +1,120 @@
+.productQuantityWrapperMainCart {
+    width: 2.8125rem;
+    height: 18rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+.productQuantityWrapperMainCart .square {
+    width: 2.8125rem;
+    height: 2.8125rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: none;
+    border: 1px solid #1D1F22;
+
+    font-family: 'Raleway Thin';
+    font-style: normal ;
+    font-size: 3.5rem;
+
+    color: #1D1F22;
+
+    cursor: pointer;
+}
+.productQuantityWrapperMainCart .square:hover {
+    box-shadow: 0px 4px 10px rgba(168, 172, 176, 0.19);
+}
+.productQuantityWrapperMainCart .productQuantity {
+    width: 2.8125rem;
+    height: 3rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 160%;
+    text-align: center;
+
+    color: #1D1F22;
+}
+.productQuantityWrapperMainCart .keep {
+    display: none;
+}
+.productQuantityWrapperMainCart .keep .buttonsContainer{
+    display: none;
+}
+.productQuantityWrapperMainCart .remove {
+    width: 100%;
+    min-height: 18rem;
+    height: 100%;
+    display:block;
+
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    z-index: 10000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: rgba(0,0,0,0.5);
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 160%;
+    text-align: center;
+
+    color: #ffffff;
+}
+.productQuantityWrapperMainCart .remove .buttonsContainer{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    border: none;
+    background: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.productQuantityWrapperMainCart .remove .buttonsContainer .buttons{
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #ffffff;
+    border-radius: 0.625rem;
+    background: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 160%;
+
+    color: #ffffff;
+    cursor: pointer;
+}
+.productQuantityWrapperMainCart .remove .buttonsContainer .buttons:hover{
+    box-shadow: 0px 4px 25px rgba(238, 242, 246, 0.19);
+}

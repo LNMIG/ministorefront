@@ -1,0 +1,13 @@
+.checkoutContainer {
+    width: 100%;
+    height: fit-content;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+
+    display: block;
+    background-color: rgba(94,206,123,1);
+}

@@ -1,0 +1,27 @@
+.mainCartPD {
+    width: 100%;
+    height: 1.875rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mainCartPD .price{
+    display: none
+}
+.mainCartPD .amount{
+    width: 100%;
+    height: 1.875rem;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #1D1F22;
+}

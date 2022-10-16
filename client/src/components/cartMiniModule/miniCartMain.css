@@ -1,0 +1,103 @@
+.miniCartWrapper {
+    min-width: 20.25rem;
+    max-width: fit-content;
+    /* height: fit-content; */
+    min-height: fit-content; /*30rem;*/
+    max-height: 30rem;
+    padding: 2rem 0rem;
+    gap: 2rem;
+    z-index: 10000;
+    overflow: hidden auto;
+
+    position: absolute;
+    top: 3.5rem;
+    right: 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: #FFFFFF;
+}
+.miniCartWrapper::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 1rem;
+}
+.miniCartWrapper::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 0.25rem;
+}
+.miniCartWrapper::-webkit-scrollbar-track {
+    background: #ffffff; /* #999; */
+}
+
+
+
+
+.miniCartShower {
+    min-width: 18.25rem;
+    max-width: fit-content;
+    height: fit-content;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.miniCartShower .myBagTitle {
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.2125rem
+}
+
+.miniCartShower .myBagTitle .myBag {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+
+    text-align: left;
+
+    color: #1D1F22;
+}
+.miniCartShower .myBagTitle .myBagItems {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+
+    text-align: right;
+
+    color: #1D1F22;
+}
+.buttonsContainer {
+    width: 18.25rem;
+    height: 2.6875rem;
+
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: none;
+}
+.emptyBag {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}

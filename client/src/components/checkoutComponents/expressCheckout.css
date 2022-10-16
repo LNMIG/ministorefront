@@ -1,0 +1,65 @@
+.expressCheckoutContainer {
+    width: 83%;
+    height: 3rem;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+
+    position: relative;
+    top: 1rem;
+    left: 5%;
+    right: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+    border: 2px solid #e7eff3;
+    border-radius: 0.5rem;
+}
+.expressCheckoutContainer .shopPay{
+    width: 45%;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #387adf;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.expressCheckoutContainer .shopPay .image{
+    width: 45%;
+    object-fit: contain;
+}
+.expressCheckoutContainer .PayPal{
+    width: 45%;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #ffbd39;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.expressCheckoutContainer .shopPay .image{
+    width: 45%;
+    object-fit: contain;
+}
+.expressCheckoutContainer .title{
+    width: fit-content;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    position: absolute;
+    top: -0.75rem;
+    left: 40%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 0.875rem;
+
+    background: #ffffff;
+}

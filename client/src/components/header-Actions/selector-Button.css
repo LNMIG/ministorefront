@@ -1,0 +1,30 @@
+.currencyActivator {
+    position: relative;
+    left: 7rem;
+    top: 0rem;
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    border: none;
+    padding: 1rem 0.3rem;
+    width: 3.125rem;
+    height: 2.5rem;
+  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 160%;
+    color: #1D1F22;
+  
+    cursor: pointer;
+}
+.currencyActivator:hover {
+    border-bottom: 1px solid silver;
+    border-image: linear-gradient(
+      to right,
+      transparent 0%,
+      #1a1b1b,
+      transparent 100%
+    ) 5;
+  }

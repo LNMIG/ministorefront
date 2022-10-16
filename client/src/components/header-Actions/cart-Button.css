@@ -1,0 +1,31 @@
+.headerActionsContainer .cart {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 2.5rem;
+    height: 2.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    background:  white;
+    border: none;
+    
+    cursor: pointer;
+}
+.headerActionsContainer .cart .carticon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.headerActionsContainer .cart:hover {
+    border-bottom: 1px solid silver;
+    border-image: linear-gradient(
+      to right,
+      transparent 0%,
+      #1a1b1b,
+      transparent 100%
+    ) 5;
+}

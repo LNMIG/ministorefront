@@ -1,0 +1,27 @@
+.wrapperRight {
+    width: 16.8125rem;
+    height: 18rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.wrapperRightMainCart {
+    width: 16.8125rem;
+    height: 18rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.wrapperRightMiniCart {
+    width: 50%; /*9.5625rem;*/
+    height: 11.875rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}

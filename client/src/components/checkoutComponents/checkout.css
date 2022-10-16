@@ -1,0 +1,81 @@
+.checkoutContainer .mainScreener {
+    width: 86%;
+    min-height: 86%;
+    height: fit-content;
+
+    position: relative;
+    left: 7.014%;
+    top: 7.014%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background-color: #ffffff;
+}
+.checkoutContainer .mainScreener .left {
+    width: 55%;
+    min-height: 25rem;
+    height: 100%;
+    padding-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.checkoutContainer .mainScreener .right {
+    width: 45%;
+    height: calc(100% - 1rem);
+    padding-top: 1rem;
+    gap: 0.5rem;
+
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-color: #e7eff3;
+}
+.checkoutContainer .mainScreener .noproduct{
+    width: 100%;
+    height: 6rem;
+    border-top: 1px solid #8ea6b4;
+    border-bottom: 1px solid #8ea6b4;
+    
+    position: relative;
+    top: 6.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 1rem;
+}
+.checkoutContainer .mainScreener .noaction{
+    width: 100%;
+    height: 6rem;
+    border-top: 1px solid #8ea6b4;
+    border-bottom: 1px solid #8ea6b4;
+
+    position: relative;
+    top: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 1rem;
+}

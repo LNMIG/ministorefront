@@ -1,0 +1,41 @@
+.error404Container {
+    width: 100%;
+    height: 100vh;
+    
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+
+    display: block;
+    background-color: rgba(94,206,123,1);
+}
+.error404Container .Error404 {
+    width: 40%;
+    height: 43.5%;
+    padding: 1rem;
+    
+    position: absolute;
+    left: calc((100% - 40%)*0.5);
+    top: calc((100% - 43.5%) * 0.5);
+
+    background: #ffffff;
+}
+.error404Container .Error404 .code {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.error404Container .Error404 .subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+.error404Container .Error404 p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: start;
+}

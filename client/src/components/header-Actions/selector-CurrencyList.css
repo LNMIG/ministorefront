@@ -1,0 +1,55 @@
+.currencyItemList {
+  display: none;
+  margin: 0;
+  padding: 0;
+  z-index: 11000;
+
+  position: absolute;
+  left: 3rem;
+
+  background-color: white;
+  box-shadow: 0 0 15px 0 grey;
+}
+.currencyItemList.active {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(114px, 1fr));
+}
+.currencyList {
+  list-style: none;
+  border-radius: 0px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #1D1F22;
+}
+.currencyList:last-child button {
+  background-color: white;
+  border-bottom: none;
+}
+.currencyList button {
+  width: 100%;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 0px;
+  background-color: white;
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  word-spacing: 5px;
+
+  transition: all 0.1s linear;
+  cursor:pointer;
+}
+.currencyList button:hover {
+  background-color: gray;
+  color: white;
+}

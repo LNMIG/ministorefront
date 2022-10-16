@@ -1,0 +1,92 @@
+.shippingAddressWrapper {
+    width: 90%;
+    height: fit-content;
+    margin-bottom: 3rem;
+    gap: 0.5rem;
+
+    position: relative;
+    top: 1rem;
+    left: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.shippingAddressWrapper .label{
+    width: 100%;
+    height: 2.5rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.shippingAddressWrapper .namesContainer {
+    width: 100%;
+    height: 2.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.shippingAddressWrapper .namesContainer .flName {
+    width: 45%;
+    height: 100%;
+    padding-left: 1rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 0.875rem;
+
+    border: 2px solid #e7eff3;
+    border-radius: 0.5rem;
+}
+.shippingAddressWrapper .address {
+    width: 97%;
+    height: 2.5rem;
+    padding-left: 1rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 0.875rem;
+
+    border: 2px solid #e7eff3;
+    border-radius: 0.5rem;
+}
+.shippingAddressWrapper .selectsContainer {
+    width: 100%;
+    height: 2.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+.shippingAddressWrapper .selectsContainer .select {
+    width: 30%;
+    height: 2.5rem;
+    padding-left: 1rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 0.875rem;
+
+    color: #808080;
+
+    border: 2px solid #e7eff3;
+    border-radius: 0.5rem;
+}
+.shippingAddressWrapper .selectsContainer .zipcode {
+    width: 30%;
+    height: 2rem;
+    padding-left: 1rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 0.875rem;
+
+    border: 2px solid #e7eff3;
+    border-radius: 0.5rem;
+}
