@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "set NODE_ENV=production & DB_COLLECTION1=scandiproducts & DB_COLLECTION2=scandicategories & DB_COLLECTION3=scandicurrencies & index",
+    "start": "set NODE_ENV=production && index.js",
     "dev": "nodemon -e js,graphql,index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
