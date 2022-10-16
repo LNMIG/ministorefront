@@ -1,0 +1,68 @@
+type Price {
+    currency: Currency!,
+    amount: Float!
+}
+
+type Attribute {
+    displayValue: String,
+    value: String,
+    id: String!
+}
+
+type AttributeSet {
+    id: String!,
+    name: String,
+    type: String,
+    items: [Attribute]
+}
+
+type Product {
+    _id: String!,
+    setId: String!,
+    name: String!,
+    inStock: Boolean,
+    gallery: [String],
+    description: String!,
+    category: String!,
+    attributes: [AttributeSet]
+    prices: [Price!]!,
+    brand: String!
+}
+
+type Category {
+    name: String,
+    products: [Product]!
+}
+
+type Categories {
+    name: String!,
+}
+
+type Currency {
+    label: String!,
+    symbol: String!
+}
+
+type Query {
+    getCategories: [Categories],
+    getCategory(name: String!): [Product],
+    getProducts: [Product],
+    getProduct(setId: String!): Product,
+    getCurrencies: [Currency]
+}
+
+type Mutation {
+    postProducts(input: ProductInput!): Product,
+}
+
+input ProductInput {
+    setId: String!,
+    name: String!,
+    inStock: Boolean,
+    gallery: String,
+    description: String!,
+    category: String!,
+    attributes: String
+    prices: String,
+    brand: String!
+}
