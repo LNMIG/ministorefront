@@ -5,7 +5,7 @@ dotenv.config()
 const { DB_USER, DB_HOST, DB_PORT, DB_NAME } = process.env
 
 let connection
-const mongoURL = `${DB_USER}://${DB_HOST}:${DB_PORT}/${DB_NAME}` || process.env.MONGODB_URI 
+const mongoURL = process.env.MONGODB_URL || `${DB_USER}://${DB_HOST}:${DB_PORT}/${DB_NAME}` 
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true

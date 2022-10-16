@@ -11,7 +11,7 @@ import seeder from './src/utils/seeder.js'
 dotenv.config()
 const isDev = process.env.NODE_ENV?.trim() !== 'production'
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.DB_PORT || 4000
 
 const typeDefs = readFileSync( join( './', 'src/schema', 'schema.gql'),'utf-8' )
 
