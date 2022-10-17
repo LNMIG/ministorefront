@@ -2,10 +2,10 @@ import dotenv from 'dotenv'
 import { MongoClient } from 'mongodb'
 
 dotenv.config()
-const { DB_USER, DB_HOST, DB_PORT, DB_NAME } = process.env
+const { DB_USER, DB_HOST, PORT, DB_NAME } = process.env
 
 let connection
-const mongoURL = process.env.MONGODB_URL || `${DB_USER}://${DB_HOST}:${DB_PORT}/${DB_NAME}` 
+const mongoURL = process.env.MONGODB_URL || `${DB_USER}://${DB_HOST}:${PORT}/${DB_NAME}` 
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true

@@ -12,14 +12,14 @@ dotenv.config()
 const {
     DB_USER,
     DB_HOST,
-    DB_PORT,
+    PORT,
     DB_NAME,
     DB_COLLECTION1,
     DB_COLLECTION2,
     DB_COLLECTION3,
     MONGODB_URL,
 } = process.env
-const mongoURL = MONGODB_URL || `${DB_USER}://${DB_HOST}:${DB_PORT}/${DB_NAME}`
+const mongoURL = MONGODB_URL || `${DB_USER}://${DB_HOST}:${PORT}/${DB_NAME}`
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true
