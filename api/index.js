@@ -12,6 +12,7 @@ dotenv.config()
 const isDev = process.env.NODE_ENV?.trim() !== 'production'
 const app = express()
 const port = process.env.PORT || 4000
+const host = process.env.DB_HOST || '0.0.0.0'
 
 const typeDefs = readFileSync( join( './', 'src/schema', 'schema.gql'),'utf-8' )
 
@@ -30,7 +31,7 @@ app.use('/api', graphqlHTTP({
     graphiql: isDev
 }))
 
-app.listen(port, '0.0.0.0', () => {
+app.listen(port, host, () => {
     seeder()
     .then(() => {
         console.log('DB loaded successfully');
