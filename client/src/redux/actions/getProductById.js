@@ -1,5 +1,5 @@
 import { GET_PRODUCT_BY_ID } from '../constants'
-let URL = process.env.REACT_APP_API || 'http://localhost:27017/api'
+let URL = process.env.REACT_APP_API || 'http://localhost:4000/api'
 
 const getProductById = (productId) => {
     const String = { productId: productId }
