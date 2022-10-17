@@ -31,11 +31,10 @@ app.use('/api', graphqlHTTP({
 }))
 
 app.listen(port, () => {
-    // seeder()
-    // .then(() => {
-    //     console.log('DB loaded successfully');
-    //     console.log(`Server is listening at http://localhost:${port}/api`);
-    // })
-    // .catch(err => console.log('Error on loading DB', err))
-    console.log(`Server is listening at http://localhost:${port}/api`);
+    seeder()
+    .then(() => {
+        console.log('DB loaded successfully');
+        console.log(`Server is listening at http://localhost:${port}/api`);
+    })
+    .catch(err => console.log('Error on loading DB', err))
 })
