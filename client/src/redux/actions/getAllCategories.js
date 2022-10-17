@@ -1,5 +1,5 @@
 import { GET_ALL_CATEGORIES } from '../constants'
-let URL = process.env.REACT_APP_API || 'http://localhost:4000/api'
+let URL = process.env.REACT_APP_API || 'http://localhost:27017/api'
 
 const getAllCategories = () => {
     return async function (dispatch) {
