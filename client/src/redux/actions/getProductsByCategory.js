@@ -8,7 +8,7 @@ const getProductsByCategory = (categoryInput = "all") => {
     return async function (dispatch) {
         try {
           const response = await fetch(`${URL}/graphql`, {
-                                    mode: 'no-cors',
+                                    mode: 'cors',
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify({
