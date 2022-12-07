@@ -27,6 +27,9 @@ app.use((req, res, next) => {
     res.header('HTTP/1.1 200 OK');
     next();
 })
+app.options('/*', (_req, res) => {
+    res.sendStatus(200);
+})
 app.use('/api', graphqlHTTP({
     schema: schema,
     rootValue: resolvers,
