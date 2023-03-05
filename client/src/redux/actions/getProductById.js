@@ -7,7 +7,7 @@ const getProductById = (productId) => {
     return async function (dispatch) {
         try {
           const response = await fetch(`${URL}/graphql`, {
-                                    mode: 'cors',
+                                    mode: 'no-cors',
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify({ query: `
