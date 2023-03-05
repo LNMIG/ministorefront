@@ -27,7 +27,6 @@
 ## Website's link
 * Once you click in the link you should wait 5 seconds until the data is loaded. If it doesn't load completely, reload the page. Then you can try this app as you wish.
 * Should you have any inconvenience, please let me know.
-* [Link to site](https://ministorefront.vercel.app/)
 
 ## Project's Goals
 - Build a Mini Storefront using **React class type component only, Redux, JavaScript, Node, MongoDB** and **GraphQL**.
