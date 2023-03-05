@@ -43,8 +43,8 @@ As a user you can:
 - select the currency you prefer.
 - see your stored products by clicking in the cart icon.
 - change the attributes of each product in the minicart deployable feature.
-- by passing the mouse over each image you can pick the product and add it to your cart with predefined attributes.
-- by clicking on the product's image the user can see relevant information about the product and change preferencies.
+- buy passing the mouse over each image you can pick the product and add it to your cart with predefined attributes.
+- buy clicking on the product's image the user can see relevant information about the product and change preferencies.
 - reloading each page will show you what you where viewing before.
 - the user can close the browser and come back later, founding that the selected products are still in the cart.
 - products out off stock are shown but the user is not able to select them.
