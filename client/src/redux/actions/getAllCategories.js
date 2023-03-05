@@ -4,7 +4,7 @@ let URL = process.env.REACT_APP_API || 'http://localhost:4000/api'
 const getAllCategories = () => {
     return async function (dispatch) {
         try {
-            const response = await fetch(`${URL}/graphql`, {
+            const response = await fetch(`${URL}`, {
                                       mode: 'cors',
                                       method: 'POST',
                                       headers: { 'Content-Type': 'application/json' },
